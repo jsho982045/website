@@ -1,0 +1,29 @@
+.about-section {
+    padding: 2rem;
+    text-align: left; /* Align text to the left */
+    max-width: 800px; /* Adjust width as needed */
+    margin: auto; /* Center the section */
+    background-color: #f4f4f4; /* Background color */
+  }
+  
+  .about-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* Space between items */
+  }
+  
+  .dash {
+    color: #333; /* Color of the dash */
+    margin-right: 1rem; /* Space between dash and text */
+    font-size: 1.5rem; /* Size of the dash */
+  }
+  
+  .about-item p {
+    margin: 0; /* Remove default margin */
+    color: #333; /* Text color */
+    font-size: 1.2rem; /* Text size */
+  }
+  
+  /* Add more styles or adjust as needed for personal preference */
+  
+  
