@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500;700&display=swap');
 header {
     background-color: #333;
     color: white;
@@ -5,6 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
   }
   .nav-links {
     list-style: none;
@@ -30,6 +32,10 @@ header {
     color: #61dafb;
   }
 
-  .name {
-    margin-left: 20px; 
-  }
+  .name{
+    font-family: 'Monoton', cursive;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}

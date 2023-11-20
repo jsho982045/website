@@ -1,6 +1,49 @@
 #projects {
     padding: 2rem;
-    background-color: #fff;
+    background-color: #2a2b32;
     text-align: center;
+    
   }
+  .dash {
+    color: white; /* Color of the dash */
+    margin-right: 1rem; /* Space between dash and text */
+    font-size: 1.5rem; /* Size of the dash */
+  }
+  .calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .calculator a{
+    margin: 0;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .calculator a:hover{
+    color: #61dafb;
+  }
+  .calculator a:active{
+    color: #fb61bb;
+  }
+  .todolist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .todolist a{
+    margin: 0;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .todolist a:hover{
+    color: #61dafb;
+  }
+  .todolist a:active{
+    color: #fb61bb;
+  }
+  
+ 
+ 
   

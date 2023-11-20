@@ -1,11 +1,18 @@
 import React from 'react';
-import '../styles/Contact.css'; // We will create this CSS file next.
+import '../styles/Contact.css';
+
 
 function Contact() {
   return (
     <section id="contact">
       <h2>Contact Me</h2>
       <p>Include your email, LinkedIn profile, or other contact information here.</p>
+      <div className="gmail-icon">
+      {/* Gmail Icon */}
+      <a href="mailto:jackshomer98@gmail.com" target="_blank">
+        <img src="/gmailIcon2.png" alt="Gmail" />
+      </a>
+      </div>
     </section>
   );
 }

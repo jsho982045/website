@@ -6,12 +6,14 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './components/Home'; // Create a Home component for the landing page
+import ParticlesBackground from './components/ParticlesBackground'; // Create a ParticlesBackground component for the particles effect
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
+        <ParticlesBackground />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

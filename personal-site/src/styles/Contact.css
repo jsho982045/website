@@ -1,6 +1,13 @@
 #contact {
     padding: 2rem;
-    background-color: #f0f0f0;
+    background-color: #2a2b32;
     text-align: center;
+  }
+
+  .gmail-icon {
+    transform: scale(0.45);
+    margin-right: 1005px;
+
+
   }
   

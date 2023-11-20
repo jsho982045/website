@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100%;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -42,6 +44,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f4f4f4;
-  color: #333;
+  background: #2a2b32;
+  color: white;
 }
