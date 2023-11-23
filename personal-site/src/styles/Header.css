@@ -32,6 +32,10 @@ header {
     color: #61dafb;
   }
 
+  .nav-bar a:focus{
+    color: #f547b8;
+  }
+
   .name{
     font-family: 'Monoton', cursive;
     color: #fff;

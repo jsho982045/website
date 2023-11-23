@@ -1,7 +1,9 @@
-#projects {
-    padding: 2rem;
-    background-color: #2a2b32;
-    text-align: center;
+.projects-section {
+  padding: 2rem;
+  text-align: left; /* Align text to the left */
+  max-width: 800px; /* Adjust width as needed */
+  margin: auto; /* Center the section */
+  background-color: #2a2b32; /* Background color */
     
   }
   .dash {
@@ -9,40 +11,26 @@
     margin-right: 1rem; /* Space between dash and text */
     font-size: 1.5rem; /* Size of the dash */
   }
-  .calculator{
+  
+  .projects-item{
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
   }
-  .calculator a{
-    margin: 0;
-    color: white;
-    font-size: 1.2rem;
+
+  .projects-item a{
+    color: #fff;
   }
-  .calculator a:hover{
+
+
+  .projects-item a:hover {
     color: #61dafb;
   }
-  .calculator a:active{
-    color: #fb61bb;
+
+  .projects-item a:active {
+    color: #f547b8;
   }
-  .todolist{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  .todolist a{
-    margin: 0;
-    color: white;
-    font-size: 1.2rem;
-  }
-  .todolist a:hover{
-    color: #61dafb;
-  }
-  .todolist a:active{
-    color: #fb61bb;
-  }
+
   
  
  

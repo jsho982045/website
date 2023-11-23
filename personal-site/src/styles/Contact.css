@@ -8,6 +8,21 @@
     transform: scale(0.45);
     margin-right: 1005px;
 
+  }
+
+  .linkedin-icon img{
+    width: 10%;
+    height: auto;
+    margin-right: 1005px;
 
   }
+
+  .github-icon img{
+    width: 10%;
+    height: auto;
+    margin-right: 1005px;
+    overflow: scroll;
+
+  }
+
   

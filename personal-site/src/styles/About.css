@@ -18,12 +18,18 @@
     font-size: 1.5rem; /* Size of the dash */
   }
   
-  .about-item p {
+  .about-item a {
     margin: 0; /* Remove default margin */
     color: white; /* Text color */
     font-size: 1.2rem; /* Text size */
   }
   
-  /* Add more styles or adjust as needed for personal preference */
+  .about-item a:hover {
+    color: #61dafb; /* Text color on hover */
+  }
+
+  .about-item a:active {
+    color: #f547b8; /* Text color on active */
+  }
   
   

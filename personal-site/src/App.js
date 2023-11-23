@@ -7,6 +7,8 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './components/Home'; // Create a Home component for the landing page
 import ParticlesBackground from './components/ParticlesBackground'; // Create a ParticlesBackground component for the particles effect
+import ComputerScienceStudent from './components/ComputerScienceStudent'; // Create a ComputerScienceStudent component for the Computer Science Student page
+import Teacher from './components/Teacher'; // Create a Teacher component for the Teacher page
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about/computer-science-student" element={<ComputerScienceStudent />} />
+          <Route path="/about/teacher" element={<Teacher />} />
         </Routes>
       </div>
     </Router>
