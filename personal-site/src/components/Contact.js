@@ -7,25 +7,21 @@ function Contact() {
     <section id="contact">
       <h2>Contact Me</h2>
       <p>Include your email, LinkedIn profile, or other contact information here.</p>
-      <div className="gmail-icon">
+      <div className="icon-container">
       {/* Gmail Icon */}
-      <a href="mailto:jackshomer98@gmail.com" target="_blank">
+      <a href="mailto:jackshomer98@gmail.com" target="_blank" className="contact-icon">
         <img src="gmailIcon2.png" alt="Gmail" />
       </a>
-      </div>
-      <div className="linkedin-icon">
       {/* LinkedIn Icon */}
-      <a href="https://www.linkedin.com/in/jack-shomer-067123266/" target="_blank">
+      <a href="https://www.linkedin.com/in/jack-shomer-067123266/" target="_blank" className="contact-icon">
         <img src="linkedin.png" alt="LinkedIn" />
-        </a>
-        </div>
-        <div className="github-icon">
-        {/* GitHub Icon */}
-        <a href="https://github.com/jsho982045" target="_blank">
-        <img src="githubIcon.png" alt="GitHub" />
-        </a>
-        </div>
-    </section>
+      </a>
+      {/* GitHub Icon */}
+      <a href="https://github.com/jsho982045" target="_blank" className="contact-icon">
+        <img src="githubIcon1.svg" alt="GitHub" />
+      </a>
+    </div>
+  </section>
   );
 }
 

@@ -6,7 +6,7 @@ function SoftwareEngineer() {
       <h1>Software Engineer</h1>
       <p>Applied ABC</p>
         <p>Brooklyn, New York</p>
-        <p>Worked on developing A-Track software</p>
+        <p>Working on developing A-Track software</p>
     </div>
   );
 }
