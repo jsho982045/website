@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
+/* import 'particles.js'; */
 
 
 const ParticlesBackground = () => {
   useEffect(() => {
-    if (window.particlesJS){
+    if (window.particlesJS) {
       window.particlesJS('particles-js', {
         particles: {
           number: {
@@ -72,16 +73,18 @@ const ParticlesBackground = () => {
         },
         retina_detect: true,
       });
+    } else{
+      console.error("particlesJS not loaded yet");
     }
   }, []);
-  
 
-  return (
-    <div
-      id="particles-js"
-      style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}
-    ></div>
+return (
+  <div
+    id="particles-js"
+    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}
+  ></div>
   );
 };
+
 
 export default ParticlesBackground;
