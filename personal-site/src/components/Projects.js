@@ -17,6 +17,18 @@ function Projects() {
       <span className="dash">&mdash;</span>
       <a href="https://jsho982045.github.io/Text-To-Speech/">Text-To-Speech</a>
       </div>
+      <div className="projects-item">
+      <span className="dash">&mdash;</span>
+      <a href="https://jsho982045.github.io/Ai-Image-Generator/">Ai Image Generator</a>
+      </div>
+      <div className="projects-item">
+      <span className="dash">&mdash;</span>
+      <a href="https://jsho982045.github.io/QR-Code-Generator/">QR Code Generator</a>
+      </div>
+      <div className="projects-item">
+      <span className="dash">&mdash;</span>
+      <a href="https://jsho982045.github.io/Text-Editor/">Text Editor</a>
+      </div>
       {/* Add individual project cards or items here */}
     </section>
   );
